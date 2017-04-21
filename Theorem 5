@@ -1,4 +1,4 @@
-(*proof for peirce law which says that (((P→Q)→P)→P) *)
+(*proof for peirce law which says that (((P->q)->P)->P) *)
 
 Definition peirce := forall (p q : Prop),
   ((p -> q) -> p) -> p.
